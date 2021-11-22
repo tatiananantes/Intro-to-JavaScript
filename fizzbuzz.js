@@ -15,9 +15,6 @@ const fizzBuzz = (number) => {
   }
 };
 
-console.log(fizzBuzz(2));
-console.log(fizzBuzz(3));
-console.log(fizzBuzz(5));
-console.log(fizzBuzz(15));
-console.log(fizzBuzz(30));
-console.log(fizzBuzz(50));
+for (let number = 1; number <= 50; number ++ ) {
+  console.log(`Fizzbuzz result for ${number} is ${fizzBuzz(number)}`);
+}
